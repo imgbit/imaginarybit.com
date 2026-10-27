@@ -184,6 +184,61 @@ h2 {
 
 .services p { margin: 0; color: var(--muted); font-size: 15px; }
 
+.product-name {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+.product-name img { flex: none; border-radius: 9px; }
+
+#pipeline-monitor .lead { margin-bottom: 12px; }
+#pipeline-monitor p { max-width: 640px; }
+
+.points {
+  margin: 16px 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.points li {
+  position: relative;
+  margin: 6px 0;
+  padding-left: 19px;
+}
+
+.points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 7px;
+  height: 7px;
+  border-radius: 1px;
+  background: var(--teal);
+}
+
+.shot { display: block; }
+
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  margin: 20px 0 0;
+}
+
+.links a::after { content: " →"; }
+
 footer {
   padding: 32px 0 48px;
   border-top: 1px solid var(--line);
